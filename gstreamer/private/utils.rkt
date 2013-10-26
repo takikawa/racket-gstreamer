@@ -23,9 +23,9 @@
 (define gstreamer-lib
   (ffi-lib "libgstreamer-0.10" "0"))
 (define glib-lib
-  (ffi-lib "libglib-2.0"))
+  (ffi-lib "libglib-2.0" '("0")))
 (define gobject-lib
-  (ffi-lib "libgobject-2.0"))
+  (ffi-lib "libgobject-2.0" '("0")))
 
 ;; Definers for GStreamer
 ;; roll our own ffi-definer since ffi/unsafe/define
