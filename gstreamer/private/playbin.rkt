@@ -21,7 +21,7 @@
     (inherit get-instance)
 
     (super-new
-      [instance (gst_element_factory_make "playbin2" "play")])
+      [instance (gst_element_factory_make "playbin" "play")])
 
     (define gst-instance (get-instance))
     (cpointer-push-tag! gst-instance 'GstPlaybin)

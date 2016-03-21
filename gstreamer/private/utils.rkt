@@ -21,7 +21,7 @@
 
 ;; FFI libraries for GStreamer
 (define gstreamer-lib
-  (ffi-lib "libgstreamer-0.10" "0"))
+  (ffi-lib "libgstreamer-1.0" "0"))
 (define glib-lib
   (ffi-lib "libglib-2.0" '("0")))
 (define gobject-lib
